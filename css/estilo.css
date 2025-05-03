@@ -21,6 +21,14 @@ h1 {
     font-size: 4.8rem;
 }
 
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3.2rem;
+}
+
 nav a {
     color: inherit; /*para erdar a cor do elemento acima*/
 }
@@ -36,6 +44,10 @@ nav a {
     text-decoration: none;
     padding: 1.6rem 4.6rem;
     display: inline-block;
+}
+
+.wrapperContainer {
+    padding-top: 1px;
 }
 
 .wrapperContainer-dark {
@@ -94,4 +106,59 @@ nav a {
 
 .hero_title {
     margin-bottom: 4rem;
+}
+
+.cursos {
+    text-align: center;
+}
+
+.cursosContainer {
+    display: flex;
+    text-align: left;
+    gap: 2rem;
+}
+
+.curso_card { 
+    /* border: 1px solid #ccc;
+    border-radius: 10px; */
+    /* overflow: hidden;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;  */
+}
+
+.curso_card img {
+    display: block;
+    width: 100%;
+}
+
+.curso_card h3 {
+    font-size: 2.4rem;
+}
+
+.curso_card p {
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+}
+
+.cursos_card_content {
+    padding: 1rem 1.25rem;
+    border: 1px solid #ccc;
+    border-radius: 0 0 8px 8px;
+    border-top: transparent;
+}
+
+.escola {
+    display: flex;
+    gap: 6rem;
+    padding-top: 6rem;
+}
+
+.escola_title {
+    font-size: 3.2rem;
+    margin-top: 2rem;
+}
+.escola p {
+    font-size: 1.8rem;
+    line-height: 1.5;
 }
