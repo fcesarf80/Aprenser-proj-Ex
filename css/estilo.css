@@ -44,6 +44,7 @@ nav a {
     text-decoration: none;
     padding: 1.6rem 4.6rem;
     display: inline-block;
+    color: inherit;
 }
 
 .wrapperContainer {
@@ -67,6 +68,17 @@ nav a {
 .container{
     max-width: 127.6rem; /*...é o mesmo que 1276px */
     margin: auto; /*...para ele centralizar */
+}
+
+.section_title {
+    font-size: 4.8rem;
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.section_btn {
+    margin: 7rem 0;
+    text-align: center;
 }
 
 .header {
@@ -120,11 +132,11 @@ nav a {
 
 .curso_card { 
     /* border: 1px solid #ccc;
-    border-radius: 10px; */
-    /* overflow: hidden;
+    border-radius: 10px;
+    overflow: hidden; */
     flex-grow: 1;
     flex-shrink: 1;
-    flex-basis: 0;  */
+    flex-basis: 0; 
 }
 
 .curso_card img {
@@ -161,4 +173,20 @@ nav a {
 .escola p {
     font-size: 1.8rem;
     line-height: 1.5;
+}
+
+.contatos_address {
+    text-align: right;
+    font: 400 1.8rem "inter", sans-serif;
+    padding:  3rem 0;
+}
+
+.footer {
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4.5rem;
+}
+
+.footer a {
+    color: inherit
 }
